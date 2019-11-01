@@ -618,7 +618,7 @@ namespace NFSeX_Exemplo
                     MostrarXML(_resposta);
                     rbPrintNFSe.Checked = true;
                     rtbCSV.Text = NFSeConverter.ConverterRetConsultarNFSe(_resposta, "");
-
+                    //teste branch
                     GetRetornoConsNFse(_resposta);
                 }
             }
